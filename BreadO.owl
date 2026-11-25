@@ -474,6 +474,14 @@
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class74"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -513,24 +521,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread Making</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class2"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class55"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class41"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -689,7 +679,7 @@
     <!-- http://www.semanticweb.org/ontologies/BreadO#Class45 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class45">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bannock</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bannock (barley)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class1"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -700,17 +690,40 @@
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class57"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class41"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty4"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class19"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty4"/>
                                                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class63"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty4"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class75"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:allValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class41"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class57"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:allValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -838,6 +851,14 @@
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class74"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -875,6 +896,14 @@
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class74"/>
+                            </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
@@ -1000,6 +1029,14 @@
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class74"/>
+                            </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
@@ -1193,6 +1230,14 @@
                             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class40"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class74"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/BreadO#ObjectProperty1"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1376,7 +1421,7 @@
     <!-- http://www.semanticweb.org/ontologies/BreadO#Class66 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class66">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Tortilla</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class1"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1544,6 +1589,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/BreadO#Class75 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class75">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/BreadO#Class5"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/BreadO#Class8 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class8">
@@ -1651,6 +1705,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class56"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class57"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class71"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class72"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class14"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class15"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class16"/>
@@ -1659,6 +1722,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class27"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class6"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class68"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BreadO#Class75"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
